@@ -14,3 +14,4 @@ BOARD_SYSTEMIMAGE_PARTITION_RESERVED_SIZE := 16777216
 
 DEVICE_MANIFEST_FILE += device/redroid/manifest.xml
 
+include vendor/redroid_ext/BoardConfig.mk

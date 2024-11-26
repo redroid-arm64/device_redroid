@@ -3,3 +3,4 @@ PRODUCT_COPY_FILES += \
 
 $(call inherit-product, device/redroid-prebuilts/prebuilts_arm.mk)
 $(call inherit-product-if-exists, vendor/redroid_ext/device.mk)
+$(call inherit-product-if-exists, vendor/redroid_ext2/device.mk)
